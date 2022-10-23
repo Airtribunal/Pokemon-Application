@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from "../styles/Home.module.css";
 import Link from 'next/link';
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const resp = await fetch(
     "https://jherr-pokemon.s3.us-west-1.amazonaws.com/index.json"
   )
