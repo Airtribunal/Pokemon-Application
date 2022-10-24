@@ -23,8 +23,8 @@ export default function Home({pokemon}) {
         <title>Pokemon List</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h2 className={styles.title}>Pokemon List</h2>
       <div className={styles.container}>
+      <h2 className={styles.title}>Pokemon List</h2>
         <div className={styles.grid}>
           {pokemon.map((pokemon) => {
             return (

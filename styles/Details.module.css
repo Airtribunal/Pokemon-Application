@@ -43,8 +43,6 @@
   text-align: center;
 }
 
-/* .btncontainer {
-  width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
-} */
+.statscontainer {
+  padding: 1rem;
+}

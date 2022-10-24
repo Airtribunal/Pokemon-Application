@@ -45,7 +45,7 @@ export default function Details({ pokemon }) {
             alt={pokemon.name.english}
           />
         </div>
-        <div>
+        <div className={styles.statscontainer}>
           <div className={styles.name}>{pokemon.name}</div>
           <div className={styles.type}>{pokemon.type.join(", ")}</div>
           <table>
