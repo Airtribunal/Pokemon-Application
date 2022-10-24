@@ -37,11 +37,6 @@ export default function Details({ pokemon }) {
       <Head>
         <title>{pokemon.name}</title>
       </Head>
-      <div>
-        <Link href="/">
-          <a>Back to Home</a>
-        </Link>
-      </div>
       <div className={styles.layout}>
         <div>
           <img
@@ -69,6 +64,11 @@ export default function Details({ pokemon }) {
               ))}
             </tbody>
           </table>
+        </div>
+        <div className={styles.backbtn}>
+            <Link href="/">
+              <a>Back to Home</a>
+            </Link>
         </div>
       </div>
     </>

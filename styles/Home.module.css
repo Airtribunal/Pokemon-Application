@@ -1,12 +1,23 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .grid {
   display: grid;
   align-items: center;
   place-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-column-gap: .9rem;
   grid-row-gap: 2rem;
 }
 
 .card img {
   max-height: 200px;
+}
+
+.title {
+  text-align: center;
+  margin: 2rem;
 }
